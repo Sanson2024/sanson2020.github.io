@@ -1,0 +1,490 @@
+f
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body{
+  
+   /* background-image: url(/imagenes/corbatavino.jpeg);
+    background-repeat: no-repeat;
+    height:auto;
+   /* background-image: url(imagenes/devepanimac.jpg);
+    background-repeat: no-repeat;*/
+ 
+ 
+}
+
+.contenedor
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;  
+}
+
+header
+{
+ width: 100%;
+ height: 120px;
+ background-color:#5571BA;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:wrap;
+}
+
+
+.moverfoto{
+    margin-left: 44%;
+    margin-top: 1%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fotomaku{
+ width:200px;
+ height:230px;
+ border-radius: 50%;
+ box-shadow: 5px 5px 10px #49422b;
+ 
+}
+
+#fotomaku {
+    transition: transform 0.4s ease-in-out; /*Este código hará que la imagen se agrande ligeramente cuando el usuario pase el mouse sobre ella.*/
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+  
+  #fotomaku:hover {
+    transform: scale(1.1);/* combinada con la anterior Este código hará que la imagen se agrande ligeramente cuando el usuario pase el mouse sobre ella.*/
+    filter: grayscale(0%);
+}
+
+
+nav{
+  margin-left:10%;
+  margin-top:7%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+
+.menu{
+  
+    display: inline;  
+     margin: 15px;
+    font-style:oblique;
+   
+}
+
+    a:hover {
+        color: #2e6663; /* Cambia el color al pasar el mouse sobre el enlace */
+        text-decoration: underline;
+
+      }
+
+a{
+    font-size:24px;
+    text-align: center;
+    text-decoration:none;
+    color: #0c2253;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.myname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style:oblique;
+    color: #0c2253;
+    margin-top: 1%;
+    margin-left: 2%;
+    
+    text-shadow:#5571BA 2px 2px 2px;
+ }
+ 
+    
+
+ 
+section{
+    width:100%;
+    height:1500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+  
+.contenedor2
+{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url(imagenes/fondotecnologico.jpg);
+  align-items: center;     
+ 
+ }
+
+   
+.contenedor3
+{
+  width: 90%;
+  height: 600px;
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color:#5571BA;
+   margin-left: 05%;
+ }
+
+
+
+
+.informacion{
+ background-color: #273a39;
+  color:white;
+  font-size:30px ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  width: 20%;
+text-align: center;
+}
+
+button:hover {
+  color: #a370c5; /* Cambia el color al pasar el mouse sobre el enlace */
+  text-decoration: underline;
+
+}
+.letrasparrafo{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  color:whitesmoke;
+  margin-left: 15%;
+}
+
+
+
+  aside
+  {
+    width:100%;
+    height:auto;
+    
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .marcofoto
+  {
+    width:90%;
+    height: autos;
+    background-color:#5571BA;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 90px;
+    padding-bottom: 120px;
+    align-items: center;
+    margin-left: 05%;
+    margin-top: 90px;
+    padding-top: 60px;
+  }
+
+  button{
+    background-color: rgb(65, 121, 158);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 42%;
+    border-radius: 2px;
+    padding: 1%;
+    
+  }
+
+  h2.dubalh2{
+    font-size:24px;
+    margin-bottom: 15px;
+  }
+  .dataidentd
+  {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 10px;
+  }
+
+ 
+ .parrafoesconder{
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+ }
+ 
+
+
+.fotoparado{
+  
+  width: 400px;
+  height: 550px;
+  border-radius: 5%;
+  position: relative;
+ padding-bottom: 15%;
+ margin-left:250%;
+ margin-top: 15%;
+
+}
+.datos{
+  width: 50%;
+  background-color: white;
+  position: absolute;
+  margin-left: 5%;
+  height: 430px;
+  margin-top: 5%;
+  border-radius: 2%;
+ 
+}
+.lidato{
+  list-style: none;
+}
+
+h2.dato2
+{
+  margin-left: 50%;
+}
+h2.dubalh2{
+  color: #0b3088;
+  background-color: aliceblue;
+  height: 40px;
+  text-align: center;
+  padding-top: 2%;
+}
+.contenedor4
+          {
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+       
+         }
+
+.fotouniversidad{
+  width:40%;
+  height: auto;
+  border-radius: 5%;
+  align-items: center;
+        }
+
+.cursostitulos1{
+  font-size: 32px;
+  text-align: center;
+  color:#0b3088;
+  margin-top: 15%;
+  margin-left: 8%;
+}
+
+.cursostitulos2{
+  font-size: 30px;
+  text-align: center;
+  color:#0b3088;
+  margin-bottom: 5%;
+  
+}
+
+
+.cursostitulos3{
+  font-size: 32px;
+  text-align: center;
+  color:#0b3088;
+  margin-top: 10%;
+}
+.cursostitulos4{
+  font-size: 32px;
+  text-align: center;
+  color:#0b3088;
+  margin-top: 10%;
+}
+
+
+.fotocurso1{
+  width:40%;
+  height: 400px;
+  border-radius: 5%;
+
+}
+.uneti{
+  width:50%;
+  height: 400px;
+  border-radius: 5%;
+}
+.americana{
+  width:40%;
+  height: 400px;
+  border-radius: 5%;
+}
+h1.tituloacademico
+{
+  color:#0b3088 ;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color:aliceblue ;
+  font-size: 50px;
+  height: 50px;
+  margin-top: 10%;
+ 
+
+} 
+.hijos
+{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around; 
+
+}
+
+
+#lineavertical
+{
+  width: 8px;
+  height: 300px;
+ margin-top: 20px;
+ margin-bottom: 25px;
+ margin-left: 445px;
+
+background-color: rgb(86, 130, 211);
+}
+
+.tituloobtenido
+{
+  color:#0d2b74 ;
+  font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+ 
+}
+
+
+
+
+
+.li2
+{
+  margin-top: 15%;
+  list-style: none;
+}
+
+
+
+.contenedor5
+{
+  width: 100%;
+  height: auto;
+  margin: 3px 3px;
+  padding: 10px 10px;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color:white;
+ 
+}
+h1.exper
+{
+  width: 100%;
+  height:100px
+  color: white;
+
+}
+.españa
+{
+width:30%;
+height:350px;
+background-color:  rgb(86, 130, 211);
+
+}
+.ecuador
+{
+  width:30%;
+  height: 350px;
+  background-color:  rgb(86, 130, 211);
+  
+}
+.venezuela
+{
+  width:30%;
+  height: auto;
+  background-color:  rgb(86, 130, 211);
+  
+}
+
+
+.descargacv{
+  background-color:rgb(154, 160, 170);
+  border-style: ;
+  padding:5px;
+  border-radius:10px;
+  margin-left: 50%;
+  color: aliceblue;
+  height: auto;
+  width: 150px;
+  font-size: 20px;
+
+}
+.botondescarga{
+  background-color: #5571BA;
+  width: 350px;
+  height: auto;
+  border-radius: 2%;
+  margin-left: 30%;
+  text-align: center;
+}
+.expLaboral
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color:#0b3088;
+  text-align: center;
+}
+
+li{
+  font-size: 20px;
+  padding: 2%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  margin-top: 20%;
+  color: white;
+  font-size: 24px;
+}
+
+.flecha
+{
+  margin-left: 80%;
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons 
+{
+  font-size: 24px;
+}
+
+.social-icons a
+ {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img
+ {
+  width: 40px; /* Ajusta el tamaño según sea necesario */
+  height: 40px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+}
